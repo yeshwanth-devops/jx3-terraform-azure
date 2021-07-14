@@ -123,7 +123,7 @@ variable "subdomain" {
 variable "apex_resource_group_name" {
   type        = string
   description = "The resource group in which the Azure DNS apex domain resides. Required if apex_domain_integration_enabled is true"
-  default     = "jenkinsxarg"
+  default     = "nopublicipaks"
 }
 variable "dns_resource_group_name" {
   type        = string
