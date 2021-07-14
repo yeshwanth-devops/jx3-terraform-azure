@@ -143,7 +143,7 @@ variable "key_vault_enabled" {
 variable "key_vault_resource_group_name" {
   type        = string
   description = "Resource group to create in which to place key vault"
-  default     = ""
+  default     = "jenkinsxrgk"
 }
 variable "key_vault_name" {
   type        = string
