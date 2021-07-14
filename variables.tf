@@ -123,7 +123,7 @@ variable "subdomain" {
 variable "apex_resource_group_name" {
   type        = string
   description = "The resource group in which the Azure DNS apex domain resides. Required if apex_domain_integration_enabled is true"
-  default     = ""
+  default     = "jenkinsxarg"
 }
 variable "dns_resource_group_name" {
   type        = string
@@ -143,7 +143,7 @@ variable "key_vault_enabled" {
 variable "key_vault_resource_group_name" {
   type        = string
   description = "Resource group to create in which to place key vault"
-  default     = "jenkinsxrgk"
+  default     = ""
 }
 variable "key_vault_name" {
   type        = string
